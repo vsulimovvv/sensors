@@ -13,8 +13,8 @@
 Статьи: https://vsulimovvv.github.io/sensors/app/articles.html  
 Контакты: https://vsulimovvv.github.io/sensors/app/contacts.html  
 Дилеры и партнеры: https://vsulimovvv.github.io/sensors/app/partners.html  
-Вакансии: https://vsulimovvv.github.io/sensors/app/vacancies.html
-Документация: https://vsulimovvv.github.io/sensors/app/docs.html
-Помощь: https://vsulimovvv.github.io/sensors/app/help.html
-Заказ продукции: https://vsulimovvv.github.io/sensors/app/order.html
-Страница для текстовых описаний: https://vsulimovvv.github.io/sensors/app/descr.html
+Вакансии: https://vsulimovvv.github.io/sensors/app/vacancies.html  
+Документация: https://vsulimovvv.github.io/sensors/app/docs.html  
+Помощь: https://vsulimovvv.github.io/sensors/app/help.html  
+Заказ продукции: https://vsulimovvv.github.io/sensors/app/order.html  
+Страница для текстовых описаний: https://vsulimovvv.github.io/sensors/app/descr.html  

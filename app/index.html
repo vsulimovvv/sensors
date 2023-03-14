@@ -37,7 +37,7 @@
 <!-- Custom Link -->
 <link rel="stylesheet" href="css/style.css" />
 
-<title>Title</title>
+<title>Сенсоры</title>
 
   </head>
 
@@ -99,9 +99,18 @@
 
   <div class="mobile-menu">
     <div class="mobile-menu__top">
-      <a class="mobile-menu__logo logo" href="#">
-        <img src="img/logo.png" alt="логотип" />
-      </a>
+      <div class="mobile-menu__left">
+        <div class="mobile-menu__lang">
+          <img src="img/ru-flag.png" alt="flag" />
+
+          <span> RU</span>
+        </div>
+        <button class="mobile-menu__search-btn" type="button">
+          <svg>
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+        </button>
+      </div>
       <button
         class="mobile-menu__close"
         type="button"
@@ -132,23 +141,219 @@
       </button>
     </div>
 
-    <ul class="mobile-menu__list">
-      <li class="mobile-menu__item">
-        <a class="mobile-menu__link" href="#"><span>Пункт меню</span></a>
-      </li>
-      <li class="mobile-menu__item">
-        <a class="mobile-menu__link" href="#"><span>Пункт меню</span></a>
-      </li>
-      <li class="mobile-menu__item">
-        <a class="mobile-menu__link" href="#"><span>Пункт меню</span></a>
-      </li>
-    </ul>
+    <div class="mobile-menu__accordions">
+      <div class="menu-accordion accordion">
+        <div class="menu-accordion__control accordion-control" type="button">
+          <a class="menu-accordion__control-link" href="#">Давление </a>
+          <button
+            class="menu-accordion__control-btn accordion-control-btn"
+            type="button"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-accordion__content accordion-content">
+          <ul class="menu-accordion__list">
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Давление</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Давление</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Давление</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Давление</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-accordion accordion">
+        <div class="menu-accordion__control accordion-control" type="button">
+          <a class="menu-accordion__control-link" href="#">Уровень </a>
+          <button
+            class="menu-accordion__control-btn accordion-control-btn"
+            type="button"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-accordion__content accordion-content">
+          <ul class="menu-accordion__list">
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Уровень</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Уровень</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Уровень</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Уровень</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-accordion accordion">
+        <div class="menu-accordion__control accordion-control" type="button">
+          <a class="menu-accordion__control-link" href="#">Реле </a>
+          <button
+            class="menu-accordion__control-btn accordion-control-btn"
+            type="button"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-accordion__content accordion-content">
+          <ul class="menu-accordion__list">
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Реле</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Реле</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Реле</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Реле</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-accordion accordion">
+        <div class="menu-accordion__control accordion-control" type="button">
+          <a class="menu-accordion__control-link" href="#">Индикаторы </a>
+          <button
+            class="menu-accordion__control-btn accordion-control-btn"
+            type="button"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-accordion__content accordion-content">
+          <ul class="menu-accordion__list">
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Индикаторы</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Индикаторы</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Индикаторы</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Индикаторы</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-accordion accordion">
+        <div class="menu-accordion__control accordion-control" type="button">
+          <a class="menu-accordion__control-link" href="#">Отрасли </a>
+          <button
+            class="menu-accordion__control-btn accordion-control-btn"
+            type="button"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-accordion__content accordion-content">
+          <ul class="menu-accordion__list">
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Отрасли</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Отрасли</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Отрасли</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Отрасли</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-accordion accordion">
+        <div class="menu-accordion__control accordion-control" type="button">
+          <a class="menu-accordion__control-link" href="#">Компания </a>
+          <button
+            class="menu-accordion__control-btn accordion-control-btn"
+            type="button"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-accordion__content accordion-content">
+          <ul class="menu-accordion__list">
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Компания</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Компания</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Компания</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Компания</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-accordion accordion">
+        <div class="menu-accordion__control accordion-control" type="button">
+          <a class="menu-accordion__control-link" href="#">Поддержка </a>
+          <button
+            class="menu-accordion__control-btn accordion-control-btn"
+            type="button"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-accordion__content accordion-content">
+          <ul class="menu-accordion__list">
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Поддержка</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Поддержка</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Поддержка</a>
+            </li>
+            <li class="menu-accordion__item">
+              <a class="menu-accordion__link" href="#">Поддержка</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <div class="mobile-menu__btns">
       <a class="mobile-menu__phone" href="tel:+74994990917">
         +7 (499) 499 09 17
       </a>
-      <!-- <button class="mobile-menu__btn btn" type="button">Онлайн запись</button> -->
+      <button class="mobile-menu__btn btn" type="button">
+        Отправить запрос
+      </button>
     </div>
   </div>
   <!-- Mobile Menu -->
@@ -830,72 +1035,82 @@
   </div>
   <div class="header__bottom">
     <div class="container">
-      <nav class="header__menu menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a
-              class="menu__link menu__link--dropdown"
-              href="about.html"
-              data-target="pressure-drop"
-            >
-              Давление
-            </a>
-          </li>
-          <li class="menu__item">
-            <a
-              class="menu__link menu__link--dropdown"
-              href="#"
-              data-target="level-drop"
-            >
-              Уровень
-            </a>
-          </li>
-          <li class="menu__item">
-            <a
-              class="menu__link menu__link--dropdown"
-              href="#"
-              data-target="relay-drop"
-            >
-              Реле
-            </a>
-          </li>
+      <div class="header__bottom-inner">
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a
+                class="menu__link menu__link--dropdown"
+                href="about.html"
+                data-target="pressure-drop"
+              >
+                Давление
+              </a>
+            </li>
+            <li class="menu__item">
+              <a
+                class="menu__link menu__link--dropdown"
+                href="#"
+                data-target="level-drop"
+              >
+                Уровень
+              </a>
+            </li>
+            <li class="menu__item">
+              <a
+                class="menu__link menu__link--dropdown"
+                href="#"
+                data-target="relay-drop"
+              >
+                Реле
+              </a>
+            </li>
 
-          <li class="menu__item">
-            <a
-              class="menu__link menu__link--dropdown"
-              href="#"
-              data-target="indicators-drop"
-            >
-              Индикаторы
-            </a>
-          </li>
-          <li class="menu__item">
-            <a
-              class="menu__link menu__link--dropdown"
-              href="#"
-              data-target="industries-drop"
-            >
-              Отрасли
-            </a>
-          </li>
-          <li class="menu__item">
-            <a
-              class="menu__link menu__link--dropdown"
-              href="#"
-              data-target="company-drop"
-              >Компания
-            </a>
-          </li>
-          <li class="menu__item">
-            <a
-              class="menu__link menu__link--dropdown"
-              href="#"
-              data-target="support-drop"
-              >Поддержка</a
-            >
-          </li>
-        </ul>
-      </nav>
+            <li class="menu__item">
+              <a
+                class="menu__link menu__link--dropdown"
+                href="#"
+                data-target="indicators-drop"
+              >
+                Индикаторы
+              </a>
+            </li>
+            <li class="menu__item">
+              <a
+                class="menu__link menu__link--dropdown"
+                href="#"
+                data-target="industries-drop"
+              >
+                Отрасли
+              </a>
+            </li>
+            <li class="menu__item">
+              <a
+                class="menu__link menu__link--dropdown"
+                href="#"
+                data-target="company-drop"
+                >Компания
+              </a>
+            </li>
+            <li class="menu__item">
+              <a
+                class="menu__link menu__link--dropdown"
+                href="#"
+                data-target="support-drop"
+                >Поддержка</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header-search">
+          <input class="header-search__input" type="text" placeholder="Поиск" />
+          <button class="header-search__btn" type="button">
+            <svg>
+              <use xlink:href="img/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </header>
@@ -903,10 +1118,105 @@
 
       <main class="main">
         <section class="hero">
-  <picture>
-    <source srcset="img/1.webp" type="image/webp" />
-    <img class="image" src="image/1.jpg" alt="image" height="200" />
-  </picture>
+  <div class="hero__slider swiper">
+    <ul class="hero__slides swiper-wrapper">
+      <li class="hero__slide swiper-slide">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__offer">
+              <h1 class="hero__title section-title">
+                Датчики давления <br />
+                и уровня
+              </h1>
+              <p class="hero__text">
+                Разработка и производство <br />
+                с доставкой по России
+              </p>
+              <a class="hero__btn btn" href="#">
+                <svg>
+                  <use xlink:href="img/sprite.svg#grid-icon"></use>
+                </svg>
+                В каталог
+              </a>
+            </div>
+            <div class="hero__img">
+              <picture>
+                <source srcset="img/hero/1.webp" type="image/webp" />
+                <img src="img/hero/1.png" alt="img" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="hero__slide swiper-slide">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__offer">
+              <h1 class="hero__title section-title">
+                Датчики давления <br />
+                и уровня
+              </h1>
+              <p class="hero__text">
+                Разработка и производство <br />
+                с доставкой по России
+              </p>
+              <a class="hero__btn btn" href="#">
+                <svg>
+                  <use xlink:href="img/sprite.svg#grid-icon"></use>
+                </svg>
+                В каталог
+              </a>
+            </div>
+            <div class="hero__img">
+              <picture>
+                <source srcset="img/hero/1.webp" type="image/webp" />
+                <img src="img/hero/1.png" alt="img" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="hero__slide swiper-slide">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__offer">
+              <h1 class="hero__title section-title">
+                Датчики давления <br />
+                и уровня
+              </h1>
+              <p class="hero__text">
+                Разработка и производство <br />
+                с доставкой по России
+              </p>
+              <a class="hero__btn btn" href="#">
+                <svg>
+                  <use xlink:href="img/sprite.svg#grid-icon"></use>
+                </svg>
+                В каталог
+              </a>
+            </div>
+            <div class="hero__img">
+              <picture>
+                <source srcset="img/hero/1.webp" type="image/webp" />
+                <img src="img/hero/1.png" alt="img" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <button
+      class="swiper-button-prev"
+      type="button"
+      aria-label="Предыдущий"
+    ></button>
+    <button
+      class="swiper-button-next"
+      type="button"
+      aria-label="Следующий"
+    ></button>
+  </div>
 </section>
 
         <section class="about-section">
@@ -1098,6 +1408,88 @@
         <button class="solutions__btn btn" type="button">Смотреть все</button>
       </div>
       <ul class="solutions__list">
+        <li class="solutions__item">
+          <div class="solutions-card">
+            <a class="solutions-card__top" href="#">
+              <picture>
+                <source srcset="img/solutions/1.webp" type="image/webp" />
+                <img src="img/solutions/1.jpg" alt="img" />
+              </picture>
+            </a>
+            <div class="solutions-card__body">
+              <a class="solutions-card__title" href="#">Машиностроение</a>
+            </div>
+          </div>
+        </li>
+        <li class="solutions__item">
+          <div class="solutions-card">
+            <a class="solutions-card__top" href="#">
+              <picture>
+                <source srcset="img/solutions/2.webp" type="image/webp" />
+                <img src="img/solutions/2.jpg" alt="img" />
+              </picture>
+            </a>
+            <div class="solutions-card__body">
+              <a class="solutions-card__title" href="#">Энергетика</a>
+            </div>
+          </div>
+        </li>
+        <li class="solutions__item">
+          <div class="solutions-card">
+            <a class="solutions-card__top" href="#">
+              <picture>
+                <source srcset="img/solutions/3.webp" type="image/webp" />
+                <img src="img/solutions/3.jpg" alt="img" />
+              </picture>
+            </a>
+            <div class="solutions-card__body">
+              <a class="solutions-card__title" href="#">
+                Пищевая промышленность
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="solutions__item">
+          <div class="solutions-card">
+            <a class="solutions-card__top" href="#">
+              <picture>
+                <source srcset="img/solutions/1.webp" type="image/webp" />
+                <img src="img/solutions/1.jpg" alt="img" />
+              </picture>
+            </a>
+            <div class="solutions-card__body">
+              <a class="solutions-card__title" href="#">Машиностроение</a>
+            </div>
+          </div>
+        </li>
+        <li class="solutions__item">
+          <div class="solutions-card">
+            <a class="solutions-card__top" href="#">
+              <picture>
+                <source srcset="img/solutions/2.webp" type="image/webp" />
+                <img src="img/solutions/2.jpg" alt="img" />
+              </picture>
+            </a>
+            <div class="solutions-card__body">
+              <a class="solutions-card__title" href="#">Энергетика</a>
+            </div>
+          </div>
+        </li>
+        <li class="solutions__item">
+          <div class="solutions-card">
+            <a class="solutions-card__top" href="#">
+              <picture>
+                <source srcset="img/solutions/3.webp" type="image/webp" />
+                <img src="img/solutions/3.jpg" alt="img" />
+              </picture>
+            </a>
+            <div class="solutions-card__body">
+              <a class="solutions-card__title" href="#">
+                Пищевая промышленность
+              </a>
+            </div>
+          </div>
+        </li>
         <li class="solutions__item">
           <div class="solutions-card">
             <a class="solutions-card__top" href="#">
