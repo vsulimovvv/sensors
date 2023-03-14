@@ -5,8 +5,8 @@
 Главная: https://vsulimovvv.github.io/sensors/app/index.html  
 Каталог: https://vsulimovvv.github.io/sensors/app/catalog.html  
 Карточка товара: https://vsulimovvv.github.io/sensors/app/product.html  
-Отрасли: https://vsulimovvv.github.io/sensors/app/undustries.html  
-При клике на отрасль: https://vsulimovvv.github.io/sensors/app/undustry.html  
+Отрасли: https://vsulimovvv.github.io/sensors/app/industries.html  
+При клике на отрасль: https://vsulimovvv.github.io/sensors/app/industry.html  
 О компании: https://vsulimovvv.github.io/sensors/app/about.html  
 Тенологии: https://vsulimovvv.github.io/sensors/app/technologies.html  
 Новости: https://vsulimovvv.github.io/sensors/app/news.html  
