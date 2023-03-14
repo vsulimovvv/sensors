@@ -7575,7 +7575,7 @@ picture {
   z-index: 10;
   width: 100%;
   position: absolute;
-  top: 180px;
+  top: 160px;
   background-color: #e2e7ec;
   -webkit-transition: 450ms ease;
   -o-transition: 450ms ease;
@@ -7584,9 +7584,9 @@ picture {
        -o-transition-delay: 150ms;
           transition-delay: 150ms;
   left: 50%;
-  -webkit-transform: translate(-50%, -10px);
-      -ms-transform: translate(-50%, -10px);
-          transform: translate(-50%, -10px);
+  -webkit-transform: translate(-50%, 10px);
+      -ms-transform: translate(-50%, 10px);
+          transform: translate(-50%, 10px);
   padding: 35px;
   background-repeat: no-repeat;
   background-position: center;
