@@ -7658,9 +7658,7 @@ picture {
   padding-top: 70px;
 }
 .dropmenu__link {
-  display: block;
-  width: 100%;
-  padding: 10px;
+  padding: 5px 0;
   padding-right: 30px;
   padding-left: 0;
   font-size: 16px;
@@ -7670,12 +7668,19 @@ picture {
   -webkit-transition: 150ms ease;
   -o-transition: 150ms ease;
   transition: 150ms ease;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  border-bottom: 1px solid transparent;
+  display: block;
+}
+.dropmenu__link span {
+  border-bottom: 1px solid transparent;
+  -webkit-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  transition: 200ms ease;
+  padding: 5px 0;
+  display: inline-block;
+}
+.dropmenu__link:hover span {
+  border-bottom-color: var(--color-white);
 }
 @media (max-width: 1300px) {
   .dropmenu__link {
