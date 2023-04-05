@@ -80,46 +80,6 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   })();
 
-  //   // * ===== Slider
-  //   (function slider() {
-  //     const sliderEl = document.querySelector('.works__slider');
-  //     new Swiper(sliderEl, {
-  //       pagination: {
-  //         el: '.swiper-pagination',
-  //       },
-  //       slidesPerView: 'auto',
-  //       spaceBetween: 20,
-  //       navigation: {
-  //         nextEl: '.works__slider .swiper-button-next',
-  //         prevEl: '.works__slider .swiper-button-prev',
-  //       },
-  //     });
-  //   })();
-
-  //   // * ===== Fixed Header
-  //   (function fixedHeader() {
-  //     function scrollHeader() {
-  //       const nav = document.querySelector('header');
-  //       if (this.scrollY >= 90) {
-  //         nav.classList.add('scroll-header');
-  //       } else {
-  //         nav.classList.remove('scroll-header');
-  //       }
-  //     }
-
-  //     window.addEventListener('scroll', scrollHeader);
-
-  //     // ! Change
-  //     function changeBg() {
-  //       const header = document.querySelector('header');
-  //       if (window.pageYOffset >= 90) {
-  //         header.classList.add('scroll-header');
-  //       }
-  //     }
-
-  //     changeBg();
-  //   })();
-
   // * ===== Show Menu
   (function showMenu() {
     const menuBtn = document.querySelector('.header__toggle');
