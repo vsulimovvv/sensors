@@ -42,7 +42,7 @@
   </head>
 
   <body>
-    <div class="popup popup--online-booking">
+    <div class="popup popup--request">
   <div class="popup__container">
     <button class="popup__close" type="button" aria-label="Закрыть">
       <svg width="15" height="15">
@@ -50,19 +50,17 @@
       </svg>
     </button>
     <div class="popup__wrapper">
-      <h2 class="popup__title">Онлайн запись</h2>
+      <span class="popup__title">Онлайн запись</span>
       <div class="popup__text">
         <p>Оставьте ваши данные и мы вам перезвоним.</p>
       </div>
 
       <form class="form-submit">
         <div class="form-submit__group">
-          <label class="form-submit__label" for="online-name">Имя</label>
+          <label class="form-submit__label">Имя</label>
 
           <input
             class="form-submit__input"
-            name="name"
-            id="online-name"
             type="text"
             placeholder="Введите ваше имя"
             required
@@ -75,8 +73,6 @@
 
           <input
             class="form-submit__input"
-            name="tel"
-            id="online-tel"
             type="tel"
             placeholder="+7 (___) ___-__-__"
             required
@@ -85,6 +81,51 @@
 
         <button class="form-submit__btn btn" type="button">
           Заказать звонок
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="popup popup--request-product">
+  <div class="popup__container">
+    <button class="popup__close" type="button" aria-label="Закрыть">
+      <svg width="15" height="15">
+        <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="popup__wrapper">
+      <span class="popup__title">Заявка на продукт</span>
+      <div class="popup__text">
+        <p>Оставьте ваши данные и мы вам перезвоним.</p>
+      </div>
+
+      <form class="form-submit">
+        <div class="form-submit__group">
+          <label class="form-submit__label">Имя</label>
+
+          <input
+            class="form-submit__input"
+            type="text"
+            placeholder="Введите ваше имя"
+            required
+          />
+        </div>
+        <div class="form-submit__group">
+          <label class="form-submit__label" for="online-tel">
+            Контактный телефон
+          </label>
+
+          <input
+            class="form-submit__input"
+            type="tel"
+            placeholder="+7 (___) ___-__-__"
+            required
+          />
+        </div>
+
+        <button class="form-submit__btn btn" type="button">
+          Заказать продукт
         </button>
       </form>
     </div>
@@ -1044,7 +1085,7 @@
           <a class="header__phone" href="tel:+74953801683">
             +7 (495) 380-16-83
           </a>
-          <button class="header__btn btn" type="button">
+          <button class="header__btn btn btn-request" type="button">
             Отправить запрос
           </button>
           <button
@@ -1197,7 +1238,7 @@
             выбор.
           </p>
         </div>
-        <button class="product__btn btn" type="button">
+        <button class="product__btn btn btn-request-product" type="button">
           Заявка на продукт
         </button>
       </div>
@@ -1346,7 +1387,7 @@
                 class="spec-accordions__control accordion-control-btn"
                 type="button"
               >
-              Другое
+                Другое
               </button>
 
               <div class="spec-accordions__content accordion-content">
